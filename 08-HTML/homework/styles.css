@@ -1,0 +1,24 @@
+.container{
+
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+h1{
+    color:blueviolet;
+} 
+img{
+    width: 400px;
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: lightslategray;
+    border: 20px solid rgb(185, 42, 42);
+ }
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
