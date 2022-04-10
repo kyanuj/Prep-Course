@@ -26,6 +26,24 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
+
+  let a = {};
+
+  do{
+    let c = 1;
+    let ns = '';
+    for( j=1; j< string.length; j++){
+      if(string[0] === string[j])
+        c++;
+      else
+        ns+=string[j];
+    }
+    
+    a[string[0]]=c;
+    string = ns;
+  }while(string.length>0);
+
+  return a;
 }
 
 
